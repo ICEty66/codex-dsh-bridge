@@ -1,0 +1,17 @@
+{
+  "name": "codex-dsh-bridge",
+  "version": "0.1.0",
+  "description": "Visible, asynchronous Codex delegation to local DeepSeekHarness with session reuse and reviewed delivery.",
+  "type": "module",
+  "license": "MIT",
+  "author": "ICEty66",
+  "engines": { "node": ">=22" },
+  "bin": { "dsh-delegate": "src/cli.mjs" },
+  "files": ["src/", "skills/", "examples/"],
+  "scripts": { "test": "node --test tests/*.test.mjs" },
+  "dependencies": { "ws": "8.22.1" },
+  "repository": { "type": "git", "url": "git+https://github.com/ICEty66/codex-dsh-bridge.git" },
+  "bugs": { "url": "https://github.com/ICEty66/codex-dsh-bridge/issues" },
+  "homepage": "https://github.com/ICEty66/codex-dsh-bridge#readme",
+  "keywords": ["codex", "deepseek", "deepseekharness", "agent", "delegation", "skill", "windows"]
+}

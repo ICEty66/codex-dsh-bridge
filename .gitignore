@@ -1,0 +1,12 @@
+node_modules/
+.scratch/
+coverage/
+*.tgz
+.env
+.env.*
+!.env.example
+
+# Keep real delegation workspaces and credentials outside this repository.
+.dsh/
+.codex/
+runs/
